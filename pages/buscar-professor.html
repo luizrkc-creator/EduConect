@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Professor</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<section class="login-container">
+
+    <h1>Buscar Professor</h1>
+
+    <h2 id="boasVindas"></h2>
+
+    <select id="disciplinaBusca">
+
+        <option>Matemática</option>
+        <option>Português</option>
+        <option>Biologia</option>
+        <option>História</option>
+        <option>Física</option>
+        <option>Química</option>
+
+    </select>
+
+    <br>
+
+    <button onclick="buscarProfessor()">
+        Buscar
+    </button>
+
+    <br><br>
+
+    <div id="resultadoProfessor"></div>
+
+    <br>
+
+    <a href="../index.html">Voltar</a>
+
+</section>
+
+<script src="../js/app.js"></script>
+
+<script>
+
+    mostrarUsuarioLogado();
+
+</script>
+
+</body>
+</html>
