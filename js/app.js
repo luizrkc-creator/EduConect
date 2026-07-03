@@ -288,7 +288,7 @@ function mostrarUsuarioLogado() {
     if (nome) {
 
         document.getElementById("boasVindas").innerHTML =
-            "Olá, " + nome + "! 👋<br>Bem-vindo ao AprovaConecta.";
+            "Olá, " + nome + "! 👋<br>Bem-vindo ao EduConect.";
 
     }
 
